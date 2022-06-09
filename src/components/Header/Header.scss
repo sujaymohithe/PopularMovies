@@ -1,0 +1,11 @@
+@use "../../styles/base";
+
+.header {
+  color: base.$header-font-color;
+  background-color: base.$primary-color;
+  height: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

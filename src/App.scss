@@ -1,0 +1,33 @@
+.app {
+  height: 90vh;
+}
+
+.search-container {
+  padding: 10px;
+}
+
+.page {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+}
+
+.movie-list {
+  margin-top: 30px;
+}
+
+.title-link {
+  color: brown;
+  cursor: pointer;
+}
+
+.content {
+  padding: 5px;
+
+  span {
+    &:nth-child(1) {
+      padding-right: 10px;
+      font-weight: bold;
+    }
+  }
+}
